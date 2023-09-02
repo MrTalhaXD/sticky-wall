@@ -1,0 +1,68 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    flex-direction: column;
+
+}
+
+.facebook{
+    background:  #3b5998 ;
+}
+.twitter{
+    background:  #00acee  ;
+}
+.google{
+    background:  #db3236  ;
+}
+
+
+.color-facebook{
+    color: #3b5998;
+}
+.color-twitter{
+    color: #00acee;
+}
+.color-google{
+    color: #db3236;
+}
+
+.color-google:hover,.color-twitter:hover,.color-facebook:hover{
+    color: gray;
+}
+
+.bggr{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.top-1{
+    top: 4px;
+}
+
+.bottom-screen{
+    bottom: 100vh;
+}
+
+.ed-buttons:hover{
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.4);
+
+}
+.card-hover:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.sticky-position {
+    top: 16vh !important;
+    left: 16vw !important;
+}
+
+
+
